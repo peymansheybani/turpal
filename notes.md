@@ -62,3 +62,6 @@ Both classes should follow the established pattern used in other supplier integr
 * ⏳ Implement `Heavenly` and `HeavenlyAdaptor` classes
 
 This setup ensures the new supplier can be easily instantiated via Laravel's service container and used uniformly across the application.
+
+### Testing Coverage
+Currently, only the `Heavenly` and `HeavenlyAdaptor` classes have automated tests implemented. Other components and integrations do not have test coverage yet.
